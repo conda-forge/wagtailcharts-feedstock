@@ -1,5 +1,5 @@
 {% set name = "wagtailcharts" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wagtailcharts-{{ version }}.tar.gz
-  sha256: da2d579cfe48f7424d327e046ab678645a3863736b5758dbb2d28f56b0859b39
+  sha256: bf770ed8979681417e05d6ba36a74d8363c5cede1a802a3aa87d1403679e4bfa
 
 build:
   noarch: python
